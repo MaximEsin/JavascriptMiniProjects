@@ -12,5 +12,5 @@
 //filter loops and returns an array with matching conditions
 
 const nums = [1, 2, 3, 4, 5, 6];
-let result = nums.filter((num) => num > 2 || num < 2);
+let result = nums.filter((num) => num > 7 || num < 4);
 console.log(result);
