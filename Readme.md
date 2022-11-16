@@ -1,6 +1,8 @@
 # JavaScript mini projects
 
-JSTips - basic JavaScript tips
+BankApp - Simple app that counts balance after deposit and withdraw
+
+JSTips - Basic JavaScript tips
 
 RandomDog - Simple API app that shows random dog when a button is clicked
 
