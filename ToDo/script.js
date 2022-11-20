@@ -5,9 +5,25 @@ todoForm.addEventListener("submit", formHandler);
 
 function formHandler(event) {
   event.preventDefault();
+
   const taskText = todoInput.value;
-  const li = `<li>${taskText}</li>`;
-  todoList.insertAdjacentHTML("beforeend", li);
+  const newTask = document.createElement("li");
+
+  newTask.innerText = taskText;
+
+  const deleteBtn = document.createElement("button");
+  deleteBtn.setAttribute("role", "button");
+  deleteBtn.innerText = "Delete";
+  deleteBtn.style["margin-left"] = "15px";
+  newTask.append(deleteBtn);
+
+  deleteBtn.addEventListener("click", function () {
+    this.closest("li").remove();
+  });
+
+  todoList.append(newTask);
+
   todoInput.value = "";
+
   todoInput.focus();
 }
