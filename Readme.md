@@ -11,3 +11,5 @@ RockPaperScissors - Game between player and computer
 SquareClicker - Simple app that shows how many times squares were clicked
 
 TipCalculator - Simple app which calculates the amount of money needed to pay the bill
+
+ToDo - Simple ToDO app that prints information written in input on the list
