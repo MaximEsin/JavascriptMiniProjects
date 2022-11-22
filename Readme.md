@@ -2,6 +2,8 @@
 
 BankApp - Simple app that counts balance after deposit and withdraw
 
+CurrencyExchange - Simple API app that shows today's exchange rate RUB/USD && RUB/EURO
+
 JSTips - Basic JavaScript tips
 
 RandomDog - Simple API app that shows random dog when a button is clicked
