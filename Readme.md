@@ -17,3 +17,5 @@ Stopwatch - Simple stopwatch app
 TipCalculator - Simple app which calculates the amount of money needed to pay the bill
 
 ToDo - Simple ToDO app that prints information written in input on the list
+
+TSTips - Basic TypeScript tips
