@@ -6,6 +6,8 @@ CurrencyExchange - Simple API app that shows today's exchange rate RUB/USD && RU
 
 JSTips - Basic JavaScript tips
 
+Procrastinate - App that shows what to do if not to code
+
 RandomDog - Simple API app that shows random dog when a button is clicked
 
 RockPaperScissors - Game between player and computer
